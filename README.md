@@ -48,6 +48,37 @@ Violations may result in:
 - Academic penalties
 - Criminal charges
 
+Legal & Ethical Considerations:
+Accessing or extracting personal information without explicit authorization is illegal in most jurisdictions (violating laws like FERPA, GDPR, etc.)
+School systems often have strict security policies - unauthorized access may result in legal consequences or academic penalties
+
+Intended Use:
+This material is provided solely for educational purposes to demonstrate web automation concepts
+It is meant for cybersecurity professionals, educators, and students learning about:
+Ethical web scraping
+System vulnerability awareness
+Responsible disclosure practices
+
+Prohibited Uses:
+Do not use this information to access systems without written permission
+Never collect, store, or distribute personal student data
+Avoid using automated tools against systems that prohibit them in their ToS
+
+Responsibility:
+The author provides this information with the expectation of ethical use
+Users assume full liability for any misuse
+Educational institutions should use this knowledge to strengthen their security
+
+Ethical Alternatives:
+
+Always seek explicit permission before testing systems
+Use school-approved APIs when available
+Report vulnerabilities through proper channels
+By studying this material, you agree to use this knowledge lawfully and ethically.
+
+
+
+
 ## Legal Alternatives for Learning
 
 1. **Authorized Penetration Testing** - Only with written permission
