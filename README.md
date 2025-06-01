@@ -1,7 +1,7 @@
-# Automates Credential Stuffing by Reverse Brute Force
+# PROOF OF CONCEPT - Automates Credential Stuffing by Reverse Brute Force
 
 **⚠️ IMPORTANT DISCLAIMER**  
-This script is provided for **educational purposes only** to demonstrate web automation concepts. Unauthorized use against real systems is illegal and violates ethical guidelines.
+This script is provided for **educational purposes only** to act as a proof of concept and demonstrate web automation abilities. Unauthorized use against real systems is illegal and violates ethical guidelines.
 
 ## Description
 
@@ -16,6 +16,47 @@ graph TD
     A --> D[Deploy Bot Detection]
     A --> E[Rate Limit Requests]
     A --> F[Monitor Enumeration Attempts]
+    
+    %% Additional Security Layers
+    B --> B1[3-5 Attempts Threshold]
+    B --> B2[30+ Minute Lockout Period]
+    B --> B3[Admin Notification]
+    
+    C --> C1[TOTP/OTP Options]
+    C --> C2[Biometric Fallback]
+    C --> C3[Hardware Token Support]
+    
+    D --> D1[Behavioral Analysis]
+    D --> D2[CAPTCHA Challenges]
+    D --> D3[Headless Browser Detection]
+    
+    E --> E1[IP-Based Throttling]
+    E --> E2[User-Based Throttling]
+    E --> E3[Geofencing Rules]
+    
+    F --> F1[SIEM Integration]
+    F --> F2[Real-Time Alerts]
+    F --> F3[Credential Stuffing Patterns]
+    
+    %% New Components
+    A --> G[Password Policy]
+    G --> G1[Minimum 12 Characters]
+    G --> G2[Breached Password Checks]
+    G --> G3[No Personal Info]
+    
+    A --> H[Session Management]
+    H --> H1[Short Timeouts]
+    H --> H2[Re-authentication for Sensitive Actions]
+    
+    A --> I[Security Headers]
+    I --> I1[Content Security Policy]
+    I --> I2[Strict Transport Security]
+    
+    %% Visual Enhancements
+    classDef red fill:#ffdddd,stroke:#ff6666;
+    classDef green fill:#ddffdd,stroke:#66cc66;
+    classDef blue fill:#ddddff,stroke:#6666ff;
+    
 ```
 ## Technical Details
 
@@ -88,8 +129,29 @@ By studying this material, you agree to use this knowledge lawfully and ethicall
 
 ## Usage Requirements
 
-To run this demo (for educational purposes only):
+To run this demo (for educational purposes only) follow the steps below to set up and run the project locally.:
 
-1. Install dependencies:
+### 0. Prerequisites:
+[Git](https://git-scm.com/)  [Python 3.7+](https://www.python.org/downloads/)
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/3xyy/ahsCredCrack.git
+cd ahsCredCrack
+```
+
+### 2. (Optional) Create a Virtual Environment
+```bash
+python -m venv venv
+source venv/bin/activate
+```
+
+### 3. Install dependencies:
 ```bash
 pip install selenium pyfiglet
+```
+
+### 4. Running the file:
+```bash
+python ahsCredCrack.py
+```
